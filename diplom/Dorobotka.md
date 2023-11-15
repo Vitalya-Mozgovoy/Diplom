@@ -177,7 +177,7 @@ local imageTag = std.extVar('image_tag');
 <img src="pic/jenkins22.png"/>
 ---
 
-Ссылка на [12-ю сборку](https://github.com/Vitalya-Mozgovoy/Diplom/blob/master/diplom/jenkins/jenkins/build12.txt)
+Ссылка на [12-ю сборку](https://github.com/Vitalya-Mozgovoy/Diplom/blob/master/diplom/jenkins/jenkins/jenkins-job2.txt)
 
 11. Проверим под в кластере `Kubernetes` и веб-страницу:
 
