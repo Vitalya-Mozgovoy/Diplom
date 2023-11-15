@@ -3,7 +3,7 @@
 
 - подключаемся к jenkins по внешнему адресу http://<ip-адрес>:8080
 - предварительно производим настройки `Jenkins`
-- создаем задачу для создания docker-образа на основе git-репозитория и файлов из папки [Dockerfile](https://github.com/psvitov/devops-netology/tree/main/Diplom/final/Dockerfile), поместив данные файлы в отдельный git-репозиторий и настроив webhook на сервис Jenkins
+- создаем задачу для создания docker-образа на основе git-репозитория и файлов из папки [Dockerfile](https://github.com/Vitalya-Mozgovoy/Diplom/tree/master/diplom/final/Dockerfile), поместив данные файлы в отдельный git-репозиторий и настроив webhook на сервис Jenkins
 - в процессе изменения git-репозитория, настариваем использование тегов для деплоя изменений в под кластера `Kubernetes`
 
 
