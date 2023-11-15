@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    dockerimagename = "valdem88/myapp"
+    dockerimagename = "vitserv/myapp"
     dockerImage = ""
     
   }
@@ -8,7 +8,9 @@ pipeline {
   stages {
     stage('Checkout Source') {
       steps {
-        git branch: 'main', url: 'https://github.com/Valdem88/myapp.git'
+        git branch: 'main', url: "https://github.com/Vitalya-Mozgovoy/myapp.git'
+        images
+
       }
     }
     stage('Checkout tag') {
